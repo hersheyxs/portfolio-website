@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsh Pol ✦ Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <body onload="document.querySelector('.hero').style.animationPlayState = 'running';"></body>
+  <section class="hero">
+    <div class="hero">
+    <div class="content">
+      <img src="harsh.jpg" alt="Harsh Pol" class="profile-pic" />
+      <h1>Harsh Pol</h1>
+      <p class="tagline">Aspiring AI Developer ⚡ Musician 🎸 Creative Tech Explorer 💡</p>
+      <div class="buttons">
+        <a href="#" class="btn">Download Résumé</a>
+        <a href="#" class="btn ghost">Contact Me</a>
+      </div>
+        <div class="socials" style="margin-top: 20px;">
+            <section class="contact">
+  <a href="https://github.com/hersheyxs" target=" blank">
+    <img src="assets/github.png" alt="GitHub" class="icon" />
+  </a>
+  <a href="https://www.linkedin.com/in/harsh-pol-097101202/" target=" blank">
+    <img src="assets/linkedin.png" alt="LinkedIn" class="icon" />
+  </a>
+  <a href="https://www.instagram.com/hersheyxs/" target=" blank">
+    <img src="assets/instagram.png" alt="Instagram" class="icon" />
+  </a>
+</div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+<script>
+  const toggleBtn = document.getElementById('theme-toggle');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    toggleBtn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+  });
+</script>
