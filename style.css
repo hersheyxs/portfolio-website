@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 195731cf0b960ec177405fa19aef7d982c47e11e
 /* General Reset */
 * {
   margin: 0;
@@ -376,4 +380,8 @@ body.light-mode .nav-links a {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 195731cf0b960ec177405fa19aef7d982c47e11e
